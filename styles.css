@@ -1,0 +1,38 @@
+body {
+  font-family: verdana sans-serif;
+  background-color: aliceblue;
+}
+
+a {
+  color: brown;
+  text-decoration: none;
+}
+
+p {
+  color: black
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+article {
+  background-color: lightsteelblue;
+  margin: 4px;
+  padding: 0 5px;
+}
+
+footer {
+  background-color: beige;
+  padding: 10px;
+}
+
+header {
+  background-color: beige;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+}
